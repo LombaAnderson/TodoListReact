@@ -13,6 +13,8 @@
     width: 1050px;
     height: 580px;
     margin: 40px 0 0 0;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .Container .Sub-Container .Box1{
@@ -39,4 +41,26 @@
     justify-content: center;
     align-items: center;
 
+}
+
+.Container .Sub-Container .Box1 .Data .Data-Agendada{
+    
+    margin: 0 30px 0px 10px;
+}
+
+.Container .Sub-Container .Box1 .Data .Hora-Agendada{
+    
+    margin: 0 0 0 10px;
+}
+
+.Container .Sub-Container .Box1 .Feito{
+    width: inherit;
+    margin: 10px 0 0 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Container .Sub-Container .Box1 .Feito .RadioGroup{
+    display: flex;
+    flex-direction: row;
 }
