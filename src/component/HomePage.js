@@ -1,13 +1,15 @@
-import React from "react";
+ import React from "react";
+// import React, {useState, useEffect} from "react";
 import "./HomePage.css";
 import TextField from "@material-ui/core/TextField";
 import Radio from "@material-ui/core/Radio";
 import RadioGroup from "@material-ui/core/RadioGroup";
 import FormControlLabel from "@material-ui/core/FormControlLabel";
-// import FormControl from "@material-ui/core/FormControl";
-// import FormLabel from "@material-ui/core/FormLabel";
+import FormControl from "@material-ui/core/FormControl";
+import FormLabel from "@material-ui/core/FormLabel";
 import Checkbox from '@material-ui/core/Checkbox';
 import Button from '@material-ui/core/Button';
+import ThumbUpIcon from '@material-ui/icons/ThumbUp';
 
 export default function HomePage() {
   return (
@@ -15,8 +17,8 @@ export default function HomePage() {
       <div className="Sub-Container">
         <div className="Box1">
           <TextField
-            className="Nota"
-            label="Notas"
+            className="Note"
+            label="Anotações"
             fullWidth
             size="small"
             variant="outlined"
@@ -101,18 +103,27 @@ export default function HomePage() {
                      style = {{flex:1}}
                 //   checked={checked}
                 //   onChange={handleChange}                 
-                />
-          
+                />         
                 </div>
             </div>
             <div className="Button">
             <Button variant="contained" color="primary">
+            <ThumbUpIcon/> &nbsp;
             Feito
          </Button>
          </div>
-          </div>
         </div>
-        <div className="Box2"></div>
+        </div>
+        <div className="Box2">
+            <div className="Data-flex" style={{margin: '7px 0 0 0'}}>
+            <div className="NoteId" style={{flex:1}}>Id</div>
+            <div className="Note" style={{width:300, margin:'0 30px'}}>Anotação</div>
+            <div className="Dias" style={{flex:3}}>Dias</div>
+            <div className="Data-Agendada" style={{flex:2.5}}>Data agendada</div>
+            <div className="Hora-Agendada" style={{flex:2.5}}> Hora agendada</div>
+            <div className="Operacoes" style={{flex:2.5}}>Configuração</div>
+            </div>
+        </div>
       </div>
     </div>
   );

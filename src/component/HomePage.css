@@ -30,7 +30,7 @@
 
 }
 
-.Container .Sub-Container .Box1 .Nota{
+.Container .Sub-Container .Box1 .Note{
   width: 80%;
   margin: 40px 0 0 10px;
 }
@@ -55,7 +55,7 @@
 
 .Container .Sub-Container .Box1 .Feito{
     width: inherit;
-    margin: 10px 0 0 0;
+    margin: 50px 0 0 0;
     display: flex;
     justify-content: space-around;
 }
@@ -64,3 +64,19 @@
     display: flex;
     flex-direction: row;
 }
+
+.Container .Sub-Container .Box1 .Feito .Button{
+    display: flex;
+    align-items: center;
+
+}
+
+.Container .Sub-Container .Box2 .Data-flex{
+    background-color: white;
+    display: flex;
+    height: 55px;
+    align-items: center;
+    padding: 0 5px 0 5px;
+
+}
+
