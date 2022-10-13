@@ -1,0 +1,42 @@
+.Container{
+    height: inherit;
+    width: inherit;
+    background-color: royalblue;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Container .Sub-Container{
+    width: 1050px;
+    height: 580px;
+    margin: 40px 0 0 0;
+}
+
+.Container .Sub-Container .Box1{
+    height: 300px;
+    width: inherit;
+    background-color: white;
+    box-shadow: 0 0 10px -3px maroon ;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.Container .Sub-Container .Box1 .Nota{
+  width: 80%;
+  margin: 40px 0 0 10px;
+}
+
+.Container .Sub-Container .Box1 .Data{
+    margin: 45px 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
