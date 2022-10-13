@@ -115,13 +115,13 @@ export default function HomePage() {
         </div>
         </div>
         <div className="Box2">
-            <div className="Data-flex" style={{margin: '7px 0 0 0'}}>
+            <div className="Data-flex" style={{margin: '7px 0 0 0', color: "blue"}}>
             <div className="NoteId" style={{flex:1}}>Id</div>
-            <div className="Note" style={{width:300, margin:'0 30px'}}>Anotação</div>
-            <div className="Dias" style={{flex:3}}>Dias</div>
-            <div className="Data-Agendada" style={{flex:2.5}}>Data agendada</div>
-            <div className="Hora-Agendada" style={{flex:2.5}}> Hora agendada</div>
-            <div className="Operacoes" style={{flex:2.5}}>Configuração</div>
+            <div className="Note" style={{width:300, margin:'0 30px', display: 'flex', justifyContent: 'center'}}>Anotação</div>
+            <div className="Dias" style={{flex:3, display: 'flex', justifyContent: 'center'}}>Dias</div>
+            <div className="Data-Agendada" style={{flex:2.5, display: 'flex', justifyContent: 'center'}}>Data agendada</div>
+            <div className="Hora-Agendada" style={{flex:2.5, display: 'flex', justifyContent: 'center'}}> Hora agendada</div>
+            <div className="Operacoes" style={{flex:2.5, display: 'flex', justifyContent: 'center'}}>Configuração</div>
             </div>
         </div>
       </div>
