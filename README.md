@@ -14,7 +14,7 @@ de marcar se foi feita, agendar hora e dia e concluí-la.
 </div>
 
 # Tecnologias utilizadas
-## Front end
+## Projeto Front end
 - Reactjs / CSS / JS / HTML
 
 # Instruções para compilar, testar e rodar o projeto
