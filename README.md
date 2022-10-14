@@ -3,9 +3,9 @@
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/LombaAnderson/TodoListReact/blob/main/LICENSE)
 
 # Sobre o projeto
-O projeto TodoListReact é a parte do frontend do desenvolvimento de um exercício proposto do desenvolvimento de um To-do list que contém também
-o seu backend feito em AspNet Core. Esse projeto foi concebido utilizando Reactjs, Css, Js e HTML, nele foi criado uma página de anotações com a possibilidade
-de marcar se foi feita, agendar hora e dia e concluí-la.
+O projeto TodoListReact é a parte do frontend no desenvolvimento de um exercício proposto de um To-do list que contém também
+o seu backend feito em AspNet Core. Esse projeto foi concebido utilizando Reactjs, Css, Js e HTML. Nele foi criado uma página de anotações com a possibilidade
+de marcar se foi feita, agendar hora e dia e também concluí-la.
 
 
 ## Imagem do navegador do TodoListReact
